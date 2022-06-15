@@ -26,9 +26,9 @@ public class Application {
     // method main(): ALWAYS the APPLICATION entry point
     public static void main (String[] args) {
     	System.out.println ("Starting Application");
-	 Application app = new Application();
-	 app.greet();
-	 int count = app.contWords("Yo tengo cuatro palabras");
-	 System.out.println("Word count: " + count);
+		Application app = new Application();
+		app.greet();
+		int count = app.contWords("Yo tengo cuatro palabras");
+		System.out.println("Word count: " + count);
     }
 }
